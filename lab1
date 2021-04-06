@@ -219,8 +219,9 @@ public static void print2(double[][]mas, int n,int m) {
 	for(int i = 0;i < n; i++) {
 		for(int j = 0;j < n; j++) {
 		System.out.printf( "%.2f" ,mas[i][j]);
-		System.out.println("\n");
+		System.out.print(" ");
 	}
+	System.out.print("\n");
 	}
 }
 }
